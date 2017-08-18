@@ -1,0 +1,70 @@
+.container-fluid {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 7%;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+.navbar{
+    background-color: #FF7524;
+    color: black;
+    text-align: right;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+.navbar-spacer{
+    width: 100%;
+    background-color: #fff;
+    //height: 20px;
+    top: 62px;
+    z-index: 1000;
+    padding-bottom: 1px;
+
+}
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+.hint {
+  color: #666;
+}
