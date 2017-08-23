@@ -14,9 +14,9 @@ window.addEventListener('load', function() {
     // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
     window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
   }
-  var abi = JSON.parse('') /*ABI HERE*/
+  var abi = JSON.parse('/*REPLACE THIS WITH ABI*/') 
   var RewardsContract = web3.eth.contract(abi);
-  contractAddress = ''; /*ADDRESS HERE*/
+  contractAddress = '/*ADDRESS HERE*/'; 
   // Rewards is our usable abstraction, which we'll use through the code below.
   Rewards = RewardsContract.at(contractAddress);
 
