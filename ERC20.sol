@@ -19,7 +19,7 @@ contract BPThreewards {
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
     function BPThreewards(
-        uint256 initialSupply;
+        uint256 initialSupply
     ) {
         balanceOf[msg.sender] = initialSupply;              // Give the creator all initial tokens
         totalSupply = initialSupply;                        // Update total supply                      // Amount of decimals for display purposes
